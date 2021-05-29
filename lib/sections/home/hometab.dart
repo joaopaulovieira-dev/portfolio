@@ -32,29 +32,53 @@ class HomeTab extends StatelessWidget {
                 Row(
                   mainAxisSize: MainAxisSize.min,
                   children: [
-                    Text(
-                      "WELCOME TO MY PORTFOLIO! ",
-                      style: GoogleFonts.montserrat(
-                          fontSize: height * 0.03, fontWeight: FontWeight.w300),
-                    ),
-                    Image.asset(
-                      "assets/hi.gif",
-                      height: height * 0.05,
-                    ),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Row(
+                          children: [
+                            Text(
+                              "HELLO WORD! ",
+                              style: GoogleFonts.montserrat(
+                                  fontSize: height * 0.03,
+                                  fontWeight: FontWeight.w300),
+                            ),
+                            Image.asset(
+                              "assets/earth.gif",
+                              height: height * 0.05,
+                            ),
+                          ],
+                        ),
+                        Row(
+                          children: [
+                            Text(
+                              "BEM-VINDO AO MEU PORTFÓLIO! ",
+                              style: GoogleFonts.montserrat(
+                                  fontSize: height * 0.03,
+                                  fontWeight: FontWeight.w300),
+                            ),
+                            Image.asset(
+                              "assets/hi.gif",
+                              height: height * 0.05,
+                            ),
+                          ],
+                        )
+                      ],
+                    )
                   ],
                 ),
                 SizedBox(
                   height: height * 0.04,
                 ),
                 Text(
-                  "Muhammad",
+                  "joaopaulovieira.",
                   style: GoogleFonts.montserrat(
                       fontSize: height * 0.07,
                       fontWeight: FontWeight.w100,
                       letterSpacing: 1.5),
                 ),
                 Text(
-                  "Hamza",
+                  "DEV",
                   style: GoogleFonts.montserrat(
                       fontSize: height * 0.07, fontWeight: FontWeight.w500),
                 ),
@@ -71,9 +95,10 @@ class HomeTab extends StatelessWidget {
                             fontSize: height * 0.03,
                             fontWeight: FontWeight.w200),
                         text: [
-                          " Flutter Developer",
-                          " Technical Writer",
-                          " UI/UX Enthusiast"
+                          " Apaixonado Por Tecnologia",
+                          " Desenvolvedor Mobile Flutter",
+                          " Analista de Sistemas",
+                          " Analista de TI"
                         ]),
                   ],
                 ),

@@ -37,30 +37,56 @@ class _HomeMobileState extends State<HomeMobile> {
                 Row(
                   mainAxisSize: MainAxisSize.min,
                   children: [
-                    Text(
-                      "HEY THERE! ",
-                      style: GoogleFonts.montserrat(
-                          fontSize: height * 0.025,
-                          fontWeight: FontWeight.w200),
-                    ),
-                    Image.asset(
-                      "assets/hi.gif",
-                      height: height * 0.03,
-                    ),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Row(
+                          children: [
+                            Text(
+                              "HELLO WORD! ",
+                              style: GoogleFonts.montserrat(
+                                  fontSize: height * 0.03,
+                                  fontWeight: FontWeight.w300),
+                            ),
+                            Image.asset(
+                              "assets/earth.gif",
+                              height: height * 0.05,
+                            ),
+                          ],
+                        ),
+                        SizedBox(
+                          height: height * 0.01,
+                        ),
+                        Row(
+                          children: [
+                            Text(
+                              "BEM-VINDO \nAO MEU PORTFÓLIO! ",
+                              style: GoogleFonts.montserrat(
+                                  fontSize: height * 0.03,
+                                  fontWeight: FontWeight.w300),
+                            ),
+                            Image.asset(
+                              "assets/hi.gif",
+                              height: height * 0.05,
+                            ),
+                          ],
+                        )
+                      ],
+                    )
                   ],
                 ),
                 SizedBox(
-                  height: height * 0.01,
+                  height: height * 0.03,
                 ),
                 Text(
-                  "Muhammad",
+                  "joaopaulovieira.",
                   style: GoogleFonts.montserrat(
                       fontSize: height * 0.055,
                       fontWeight: FontWeight.w100,
                       letterSpacing: 1.1),
                 ),
                 Text(
-                  "Hamza",
+                  "DEV",
                   style: GoogleFonts.montserrat(
                       fontSize: height * 0.055, fontWeight: FontWeight.w500),
                 ),
@@ -77,9 +103,10 @@ class _HomeMobileState extends State<HomeMobile> {
                             fontSize: height * 0.03,
                             fontWeight: FontWeight.w200),
                         text: [
-                          " Flutter Developer",
-                          " Technical Writer",
-                          " UI/UX Enthusiast"
+                          " Apaixonado Por Tecnologia",
+                          " Desenvolvedor Mobile Flutter",
+                          " Analista de Sistemas",
+                          " Analista de TI"
                         ]),
                   ],
                 ),
