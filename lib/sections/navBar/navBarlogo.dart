@@ -7,7 +7,7 @@ class NavBarLogo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: EdgeInsets.fromLTRB(
-          MediaQuery.of(context).size.width < 1100 ? 0.0 : 20.0, 20.0, 0, 0),
+          MediaQuery.of(context).size.width < 1100 ? 0.0 : 20.0, 10.0, 0, 0),
       child: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
@@ -16,7 +16,7 @@ class NavBarLogo extends StatelessWidget {
             style: TextStyle(fontSize: height ?? 20),
           ),
           Text(
-            "Hamza",
+            "joaopaulovieira . dev",
             style: TextStyle(fontFamily: "Agustina", fontSize: height ?? 20),
           ),
           Text(

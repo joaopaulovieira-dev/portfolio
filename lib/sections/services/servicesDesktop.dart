@@ -21,6 +21,7 @@ class ServiceDesktop extends StatelessWidget {
               fontSize: height * 0.06,
               fontWeight: FontWeight.w100,
               letterSpacing: 1.0,
+              color: darkGreenColor,
             ),
           ),
           Text(

@@ -41,19 +41,48 @@ class HomeDesktop extends StatelessWidget {
                 Row(
                   mainAxisSize: MainAxisSize.min,
                   children: [
-                    Text(
-                      "WELCOME TO MY PORTFOLIO! ",
-                      style: GoogleFonts.montserrat(
-                          fontSize: height * 0.03, fontWeight: FontWeight.w300),
-                    ),
-                    EntranceFader(
-                      offset: Offset(0, 0),
-                      delay: Duration(seconds: 2),
-                      duration: Duration(milliseconds: 800),
-                      child: Image.asset(
-                        "assets/hi.gif",
-                        height: height * 0.05,
-                      ),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Row(
+                          children: [
+                            Text(
+                              "HELLO WORD! ",
+                              style: GoogleFonts.montserrat(
+                                  fontSize: height * 0.03,
+                                  fontWeight: FontWeight.w300),
+                            ),
+                            EntranceFader(
+                              offset: Offset(0, 0),
+                              delay: Duration(seconds: 2),
+                              duration: Duration(milliseconds: 800),
+                              child: Image.asset(
+                                "assets/earth.gif",
+                                height: height * 0.05,
+                              ),
+                            ),
+                          ],
+                        ),
+                        Row(
+                          children: [
+                            Text(
+                              "BEM-VINDO AO MEU PORTFÓLIO! ",
+                              style: GoogleFonts.montserrat(
+                                  fontSize: height * 0.03,
+                                  fontWeight: FontWeight.w300),
+                            ),
+                            EntranceFader(
+                              offset: Offset(0, 0),
+                              delay: Duration(seconds: 2),
+                              duration: Duration(milliseconds: 800),
+                              child: Image.asset(
+                                "assets/hi.gif",
+                                height: height * 0.05,
+                              ),
+                            ),
+                          ],
+                        )
+                      ],
                     ),
                   ],
                 ),
@@ -61,17 +90,18 @@ class HomeDesktop extends StatelessWidget {
                   height: height * 0.04,
                 ),
                 Text(
-                  "Muhammad",
+                  "joaopauloviera.",
                   style: GoogleFonts.montserrat(
                       fontSize: width < 1200 ? height * 0.085 : height * 0.095,
                       fontWeight: FontWeight.w100,
                       letterSpacing: 4.0),
                 ),
                 Text(
-                  "Hamza",
+                  "DEV",
                   style: GoogleFonts.montserrat(
                       fontSize: width < 1200 ? height * 0.085 : height * 0.095,
                       fontWeight: FontWeight.w500,
+                      color: darkGreenColor,
                       letterSpacing: 5.0),
                 ),
                 EntranceFader(
@@ -91,9 +121,10 @@ class HomeDesktop extends StatelessWidget {
                               fontSize: height * 0.03,
                               fontWeight: FontWeight.w200),
                           text: [
-                            " Flutter Developer",
-                            " Technical Writer",
-                            " UI/UX Enthusiast"
+                            " Apaixonado Por Tecnologia",
+                            " Desenvolvedor Mobile Flutter",
+                            " Analista de Sistemas",
+                            " Analista de TI"
                           ]),
                     ],
                   ),

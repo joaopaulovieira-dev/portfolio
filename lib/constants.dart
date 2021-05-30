@@ -2,7 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 // Colors
-Color kPrimaryColor = Color(0xffC0392B);
+Color kPrimaryColor = Color(0xff7F00FF);
+Color darkGreenColor = Color(0xff7FFF00);
+Color darBlueColor = Color(0xff007FFF);
+Color darkRedColor = Color(0xffFF0000);
+Color darkOrangeColor = Color(0xffFF7F00);
 
 // Social Media
 const kSocialIcons = [
@@ -29,9 +33,9 @@ void launchURL(String _url) async =>
 
 // Community
 final kCommunityLogo = [
-  'assets/cui.png',
-  'assets/flutterIsl.png',
-  'assets/dsc.png'
+  'assets/flutter.png',
+  'assets/dart.png',
+  'assets/firebase.png'
 ];
 
 final kCommunityLinks = [
@@ -146,13 +150,13 @@ final kContactIcons = [
 ];
 
 final kContactTitles = [
-  "Location",
-  "Phone",
-  "Email",
+  "Localização",
+  "Telefone",
+  "E-mail",
 ];
 
 final kContactDetails = [
-  "Attock, Pakistan",
-  "(+92) 346 0159889",
-  "hamza.6.shakeel@gmail.com"
+  "Volta Redonda - Rio de Janeiro - Brasil",
+  "(+55) 24 98152-7163",
+  "joaopaulovieira.dev@gmail.com"
 ];

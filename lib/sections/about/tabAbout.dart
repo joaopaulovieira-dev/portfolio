@@ -23,11 +23,12 @@ class AboutTab extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            "\nAbout Me",
+            "\nSobre",
             style: GoogleFonts.montserrat(
               fontSize: height * 0.06,
               fontWeight: FontWeight.w100,
               letterSpacing: 1.0,
+              color: darkGreenColor,
             ),
           ),
           SizedBox(

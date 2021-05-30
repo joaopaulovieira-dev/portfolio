@@ -9,7 +9,7 @@ class ToolsTech extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text("Technologies I have worked with:\n"),
+        Text("Tecnologias com as quais já trabalhei:\n"),
         Row(
             mainAxisSize: MainAxisSize.min,
             crossAxisAlignment: CrossAxisAlignment.start,

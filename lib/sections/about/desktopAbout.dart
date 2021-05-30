@@ -23,11 +23,12 @@ class AboutDesktop extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            "\nAbout Me",
+            "\nSobre Mim",
             style: GoogleFonts.montserrat(
               fontSize: height * 0.075,
               fontWeight: FontWeight.w100,
               letterSpacing: 1.0,
+              color: darkGreenColor,
             ),
           ),
           SizedBox(
@@ -39,7 +40,7 @@ class AboutDesktop extends StatelessWidget {
               Expanded(
                 flex: 3,
                 child: AboutMeText(
-                  fontSize: width <= 1100 ? 14 : 16,
+                  fontSize: width <= 1100 ? 11 : 14,
                 ),
               ),
               (width <= 950 && width >= 1185)

@@ -21,11 +21,12 @@ class AboutMobile extends StatelessWidget {
       child: Column(
         children: [
           Text(
-            "About Me",
+            "Sobre",
             style: GoogleFonts.montserrat(
               fontSize: height * 0.06,
               fontWeight: FontWeight.w100,
               letterSpacing: 1.0,
+              color: darkGreenColor,
             ),
           ),
           SizedBox(
