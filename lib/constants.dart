@@ -10,21 +10,21 @@ Color darkOrangeColor = Color(0xffFF7F00);
 
 // Social Media
 const kSocialIcons = [
+  "https://img.icons8.com/metro/308/ffffff/linkedin.png",
+  "https://img.icons8.com/material-rounded/384/ffffff/github.png",
   "https://img.icons8.com/metro/208/ffffff/facebook-new--v2.png",
   "https://img.icons8.com/ios-glyphs/480/ffffff/instagram-new.png",
   "https://img.icons8.com/android/480/ffffff/twitter.png",
-  "https://img.icons8.com/metro/308/ffffff/linkedin.png",
-  "https://img.icons8.com/material-rounded/384/ffffff/github.png",
   "https://img.icons8.com/ios-filled/500/ffffff/medium-monogram--v1.png"
 ];
 
 const kSocialLinks = [
-  "https://facebook.com/mhamzadev",
-  "https://instagram.com/mhamzadev",
-  "https://twitter.com/mhamzadev",
-  "https://linkedin.com/in/mhamzadev",
-  "https://github.com/m-hamzashakeel",
-  "https://mhamzadev.medium.com"
+  "https://www.linkedin.com/in/joaopaulovieira-dev/",
+  "https://github.com/joaopaulovieira-dev",
+  "https://www.facebook.com/joaopaulovieira.dev/",
+  "https://www.instagram.com/joaopaulovieira.dev/",
+  "https://twitter.com/joaopaulo_dev",
+  "https://medium.com/"
 ];
 
 // URL Launcher
