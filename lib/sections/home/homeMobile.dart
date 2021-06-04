@@ -26,7 +26,7 @@ class _HomeMobileState extends State<HomeMobile> {
             right: -width * 0.3,
             child: Opacity(
               opacity: 0.7,
-              child: Image.asset('assets/1.png', height: height * 0.65),
+              child: Image.asset('assets/eu.png', height: height * 0.65),
             ),
           ),
           Container(

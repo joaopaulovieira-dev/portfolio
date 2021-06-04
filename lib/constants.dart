@@ -28,26 +28,49 @@ const kSocialLinks = [
 ];
 
 // URL Launcher
-void launchURL(String _url) async =>
-    await canLaunch(_url) ? await launch(_url) : throw 'Could not launch $_url';
+void launchURL(String _url) async => await canLaunch(_url)
+    ? await launch(_url)
+    : throw 'Não foi possível abrir$_url';
 
 // Community
 final kCommunityLogo = [
-  'assets/flutter.png',
-  'assets/dart.png',
-  'assets/firebase.png'
+  'assets/logos/flutter.png',
+  'assets/logos/dart.png',
+  'assets/logos/firebase.png',
+  'assets/logos/android.png',
+  'assets/logos/ios.png',
+  'assets/logos/github.png',
 ];
 
 final kCommunityLinks = [
   "https://www.comsats.edu.pk/",
   "https://web.facebook.com/FlutterIslamabadPakistan/",
-  "https://dsc.community.dev/comsats-university-islamabad/"
+  "https://web.facebook.com/FlutterIslamabadPakistan/",
+  "https://www.comsats.edu.pk/",
+  "https://www.comsats.edu.pk/",
+  "https://web.facebook.com/FlutterIslamabadPakistan/"
 ];
 
 // Tools & Tech
-final kTools = ["Flutter", "Dart", "Python", "Java", "C++"];
+final kTools = [
+  "Flutter",
+  "Dart",
+  "Firebase",
+  "PHP",
+  "JavaScript",
+  "MySQL",
+  "SQL",
+];
 
-final kTools1 = ["HTML", "CSS", "Bootstrap", "React-native"];
+final kTools1 = [
+  "Android",
+  "iOS",
+  "GitHub",
+  "HTML",
+  "CSS",
+  "Bootstrap",
+  "Wordpress",
+];
 
 // services
 final kServicesIcons = [
