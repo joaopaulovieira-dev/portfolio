@@ -13,15 +13,16 @@ class ContactMobileTab extends StatelessWidget {
       child: Column(
         children: [
           Text(
-            "\nContact",
+            "\nContato",
             style: GoogleFonts.montserrat(
               fontSize: height * 0.06,
               fontWeight: FontWeight.w100,
               letterSpacing: 1.0,
+              color: darkGreenColor,
             ),
           ),
           Text(
-            "Let's get in touch and build something together :)\n\n",
+            "Que tal entrarmos em contato para construirmos algo juntos ou tomarmos um café virtual? 😉\n\n",
             style: GoogleFonts.montserrat(fontWeight: FontWeight.w200),
             textAlign: TextAlign.center,
           ),

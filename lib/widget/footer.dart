@@ -13,7 +13,7 @@ class Footer extends StatelessWidget {
       color: Colors.grey[900],
       child: Center(
         child: Text(
-          "2021 - joaopaulovieira.dev",
+          "2021 - joaopaulovieira.dev | Feito com ❤️ em Flutter!",
           style: GoogleFonts.montserrat(fontWeight: FontWeight.w100),
         ),
       ),
