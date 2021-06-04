@@ -43,12 +43,12 @@ final kCommunityLogo = [
 ];
 
 final kCommunityLinks = [
-  "https://www.comsats.edu.pk/",
-  "https://web.facebook.com/FlutterIslamabadPakistan/",
-  "https://web.facebook.com/FlutterIslamabadPakistan/",
-  "https://www.comsats.edu.pk/",
-  "https://www.comsats.edu.pk/",
-  "https://web.facebook.com/FlutterIslamabadPakistan/"
+  "https://flutter.dev/",
+  "https://dart.dev/",
+  "https://firebase.google.com/",
+  "https://www.android.com/",
+  "https://www.apple.com/br/ios",
+  "https://github.com/"
 ];
 
 // Tools & Tech
@@ -83,27 +83,21 @@ final kServicesIcons = [
 
 final kServicesTitles = [
   "Full App Development",
-  "UI/UX Designing",
-  "Rapid Prototyping",
-  "Technical Blog Writing",
-  "Open Source - GitHub",
+  "UI/UX Designer",
+  "Prototipagem Rápida",
+  "Evoluindo Com o Aprendizado",
+  "Programando o Mundo",
 ];
 
 final kServicesDescriptions = [
-  "For now, I can only develop Android Apps using Flutter, that's because I don't own a MacBook right now so can't test or debug apps for iOS. Hopefully this missing piece will be filled soon :)",
-  "Although I'm mainly a flutter developer but I do care about the UI/UX for my client. Hence, I also do UI designing for applications. So, feel free to ask me for getting you UI/UX for your apps",
-  "Having a startup idea? Or maybe just want a prototype for your clients? With Flutter I can get you basic version of your app in no time and you are good to go for your project in future.",
-  "I have been writing technical blogs on Medium for over a year now. So, I can get you technical blogs with awesome header images, interesting topics and SEO friendly.\nCheck out my Medium profile @mhamzadev",
-  "Working as open source contributor on GitHub with 200+ stars and numerous forks on various projects liked and shared by other developers.\nCheck out my GitHub Profile @m-hamzashakeel",
+  "Atuo na criação de Apps para dispositivos móveis com o framework Flutter e linguagem Dart. \nBusco sempre a excelência de todo projeto, desde a análise das necessidades, planejamento, desenvolvimento, até a configuração e finalização.",
+  "Embora eu seja principalmente um Desenvolvedor Mobile, na hora do desenvolvimento do App sempre me importo com a UI/UX, para que o usuário possa usufruir da melhor forma possível seu App. Sei o quão importante é uma boa experiencia de usuário.",
+  "Está tendo uma ideia de App? Ou talvez apenas queira um protótipo? Com o Flutter, posso obter a versão básica do seu aplicativo a tempo e logo você estará pronto para iniciar seu projeto.",
+  "O mundo da tecnologia não para de evoluir, todos os dias novas aplicações e ferramentas são criadas. Com isso através do aprendizado constante e diário busco sempre me desenvolver para me tornar um profissional de excelência, capacitado e inovador.",
+  "Com a programação, posso fazer do uso de novas tecnologias para criar algo e me expressar plenamente. Steve Jobs um dia disse a seguinte frase “Todas as pessoas do mundo deveriam aprender a programar um computador, porque isso nos ensina a pensar”.",
 ];
 
-final kServicesLinks = [
-  "https://www.fiverr.com/hamza6shakeel/be-your-mobile-app-developer-via-flutter",
-  "https://www.fiverr.com/hamza6shakeel/get-you-modern-ui-design-using-adobe-xd",
-  "https://www.fiverr.com/hamza6shakeel/be-your-mobile-app-developer-via-flutter",
-  "https://mhamzadev.medium.com",
-  "https://github.com/m-hamzashakeel"
-];
+final kServicesLinks = ["#", "#", "#", "#", "#"];
 
 // projects
 final kProjectsBanner = [
