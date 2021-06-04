@@ -16,15 +16,16 @@ class PortfolioDesktop extends StatelessWidget {
       child: Column(
         children: [
           Text(
-            "\nPortfolio",
+            "\nPortfólio",
             style: GoogleFonts.montserrat(
               fontSize: height * 0.06,
               fontWeight: FontWeight.w100,
               letterSpacing: 1.0,
+              color: darkGreenColor,
             ),
           ),
           Text(
-            "Here are few samples of my previous work :)\n\n",
+            "Aqui estão alguns dos meus projetos.\n\n",
             style: GoogleFonts.montserrat(fontWeight: FontWeight.w200),
           ),
           SizedBox(
@@ -35,7 +36,7 @@ class PortfolioDesktop extends StatelessWidget {
               separatorBuilder: (context, index) {
                 return VerticalDivider(
                   color: Colors.transparent,
-                  width: width * 0.015,
+                  width: width * 0.015, //Espaçamento entre os banners
                 );
               },
               itemBuilder: (context, index) {
@@ -69,10 +70,10 @@ class PortfolioDesktop extends StatelessWidget {
                 borderRadius: BorderRadius.circular(5.0),
                 side: BorderSide(color: kPrimaryColor)),
             onPressed: () {
-              launchURL("https://github.com/m-hamzashakeel");
+              launchURL("https://github.com/joaopaulovieira-dev");
             },
             child: Text(
-              "See More",
+              "Veja mais",
               style: GoogleFonts.montserrat(
                 fontWeight: FontWeight.w200,
               ),

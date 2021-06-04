@@ -101,14 +101,14 @@ final kServicesLinks = ["#", "#", "#", "#", "#"];
 
 // projects
 final kProjectsBanner = [
-  "assets/projects/medkitB.png",
+  "assets/projects/banner_conversordemoedas.png",
   "assets/projects/quranB.png",
   "assets/projects/hereiamB.png",
   "assets/projects/covidB.png",
 ];
 
 final kProjectsIcons = [
-  "assets/projects/medkit.png",
+  "assets/projects/icone_conversordemoedas.png",
   "assets/projects/quran.png",
   "assets/projects/hereiam.png",
   "assets/projects/covid.png",
@@ -121,7 +121,7 @@ final kProjectsIcons = [
 ];
 
 final kProjectsTitles = [
-  "MedKit",
+  "Conversor de Moedas",
   "The Holy Qur'an",
   "Here I Am",
   "COVID-19",
