@@ -10,7 +10,8 @@ class CommunityIconBtn extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.symmetric(horizontal: 12.0),
+      padding: EdgeInsets.symmetric(
+          horizontal: 12.0), //Espaçamento horizontal dos logos.
       child: InkWell(
         child: Image.asset(
           icon,

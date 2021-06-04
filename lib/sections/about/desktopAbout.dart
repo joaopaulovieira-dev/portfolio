@@ -7,7 +7,23 @@ import 'package:portfolio/widget/toolsTech.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class AboutDesktop extends StatelessWidget {
-  final _communityLogoHeight = [50.0, 70.0, 30.0];
+  final _communityLogoHeight = [
+    //tamanho das logos, cada tamanho equivale a uma logo.
+    40.0,
+    40.0,
+    40.0,
+    40.0,
+    40.0,
+    40.0,
+    40.0,
+    40.0,
+    40.0,
+    40.0,
+    40.0,
+    40.0,
+    40.0,
+    40.0
+  ];
 
   @override
   Widget build(BuildContext context) {

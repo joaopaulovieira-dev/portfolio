@@ -7,7 +7,7 @@ import 'package:portfolio/widget/toolsTech.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class AboutMobile extends StatelessWidget {
-  final _communityLogoHeight = [50.0, 60.0, 30.0];
+  final _communityLogoHeight = [30.0, 30.0, 30.0, 30.0, 30.0, 30.0];
 
   @override
   Widget build(BuildContext context) {

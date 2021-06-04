@@ -30,7 +30,7 @@ class AboutMeText extends StatelessWidget {
         ),
         TextSpan(
           text:
-              "\n\nApaixonado por tecnologia e trabalhando a mais de 7 anos com ela, pude adquirir bastantes experiencias nesta área, especificamente com sistemas e programação, durante todo este período. No momento o meu foco está no",
+              "\n\nApaixonado por tecnologia e trabalhando a mais de 7 anos com ela, pude adquirir bastantes experiências nesta área, especificamente com sistemas e programação, durante todo este período. No momento o meu foco está no",
           style: MediaQuery.of(context).size.width < 600
               ? _textStyle(fontSize, false)
               : _textStyle(fontSize + 2, false),
