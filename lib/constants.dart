@@ -181,5 +181,5 @@ final kContactTitles = [
 final kContactDetails = [
   "Volta Redonda - Rio de Janeiro - Brasil",
   "(+55) 24 98152-7163",
-  "joaopaulovieira.dev@gmail.com"
+  "contato@joaopaulovieira.dev"
 ];
