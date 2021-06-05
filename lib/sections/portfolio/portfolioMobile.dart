@@ -27,7 +27,7 @@ class PortfolioMobileTab extends StatelessWidget {
             textAlign: TextAlign.center,
           ),
           CarouselSlider.builder(
-            itemCount: 10,
+            itemCount: 3,
             itemBuilder: (BuildContext context, int itemIndex, int i) =>
                 Padding(
               padding: const EdgeInsets.symmetric(vertical: 10.0),
@@ -60,7 +60,7 @@ class PortfolioMobileTab extends StatelessWidget {
               launchURL("https://github.com/joaopaulovieira-dev");
             },
             child: Text(
-              "Veja mais",
+              "Veja mais projetos",
               style: GoogleFonts.montserrat(
                 fontWeight: FontWeight.w200,
               ),

@@ -28,11 +28,11 @@ class _MainPageState extends State<MainPage> {
   ItemPositionsListener _itemPositionListener = ItemPositionsListener.create();
 
   final List<String> _sectionsName = [
-    "Home",
-    "About",
-    "Services",
-    "Projects",
-    "Contact"
+    "Início",
+    "Sobre Mim",
+    "Serviços",
+    "Projetos",
+    "Contato"
   ];
 
   final List<IconData> _sectionsIcons = [
@@ -171,12 +171,10 @@ class _MainPageState extends State<MainPage> {
                   borderRadius: BorderRadius.circular(5.0),
                   side: BorderSide(color: kPrimaryColor)),
               onPressed: () {
-                html.window.open(
-                    'https://drive.google.com/uc?export=view&id=1OOdcdGEN3thVvpZ4cl_MM0LT-GCMuLIE',
-                    "pdf");
+                html.window.open('https://joaopaulovieira.dev', "pdf");
               },
               child: Text(
-                "Resume",
+                "Resumo",
                 style: GoogleFonts.montserrat(
                   fontWeight: FontWeight.w200,
                 ),
