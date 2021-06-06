@@ -86,9 +86,9 @@ class _ServiceCardState extends State<ServiceCard> {
                 textAlign: TextAlign.center,
                 style: GoogleFonts.montserrat(
                     fontSize: height * 0.015,
-                    letterSpacing: 2.0,
+                    letterSpacing: 1.0,
                     fontWeight: FontWeight.w100,
-                    height: width < 900 ? 2.3 : 1.5),
+                    height: width < 600 ? 2.0 : 1.5),
               ),
             )
           ],
