@@ -1,6 +1,6 @@
 # Portfólio - Flutter Web <img height="26" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/flutter/flutter.png">
 
-[![GitHub issues](https://img.shields.io/github/issues/joaopaulovieira-dev/chat_youtility_jpvp)](https://github.com/joaopaulovieira-dev/v/issues)[![GitHub forks](https://img.shields.io/github/forks/joaopaulovieira-dev/chat_youtility_jpvp)](https://github.com/joaopaulovieira-dev/portfolio/network)[![GitHub stars](https://img.shields.io/github/stars/joaopaulovieira-dev/chat_youtility_jpvp)](https://github.com/joaopaulovieira-dev/portfolio/stargazers)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub issues](https://img.shields.io/github/issues/joaopaulovieira-dev/portfolio)](https://github.com/joaopaulovieira-dev/v/issues)[![GitHub forks](https://img.shields.io/github/forks/joaopaulovieira-dev/portfolio)](https://github.com/joaopaulovieira-dev/portfolio/network)[![GitHub stars](https://img.shields.io/github/stars/joaopaulovieira-dev/portfolio)](https://github.com/joaopaulovieira-dev/portfolio/stargazers)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](#)
 
 - Portfólio todo projetado em Flutter. Disponível para Web com responsividade e Smartphones (Android e iOS).
