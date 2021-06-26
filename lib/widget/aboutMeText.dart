@@ -50,7 +50,7 @@ class AboutMeText extends StatelessWidget {
               : _textStyle(fontSize + 2, false),
         ),
         TextSpan(
-          text: "desenvolvimento mobile e TI.",
+          text: "desenvolvimento mobile.",
           style: MediaQuery.of(context).size.width < 600
               ? _textStyle(fontSize, true)
               : _textStyle(fontSize + 2, true),

@@ -1,5 +1,4 @@
-// ignore: avoid_web_libraries_in_flutter
-//import 'package:universal_html/html.dart' as html;
+import 'package:universal_html/html.dart' as html;
 
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
@@ -171,10 +170,12 @@ class _MainPageState extends State<MainPage> {
                   borderRadius: BorderRadius.circular(5.0),
                   side: BorderSide(color: kPrimaryColor)),
               onPressed: () {
-                //html.window.open('https://joaopaulovieira.dev', "pdf");
+                html.window.open(
+                    'https://joaopaulovieira.dev/cv/Curriculo_Dev_Flutter_Joao_Paulo_Vieira_Pereira.pdf',
+                    "pdf");
               },
               child: Text(
-                "Resumo",
+                "Currículo",
                 style: GoogleFonts.montserrat(
                   fontWeight: FontWeight.w200,
                 ),
@@ -208,7 +209,8 @@ class _MainPageState extends State<MainPage> {
                     borderRadius: BorderRadius.circular(5.0),
                     side: BorderSide(color: kPrimaryColor)),
                 onPressed: () {
-                  //launchURL("https://joaopaulovieira.dev'");
+                  launchURL(
+                      "https://joaopaulovieira.dev/cv/Curriculo_Dev_Flutter_Joao_Paulo_Vieira_Pereira.pdf");
                 },
                 child: ListTile(
                   leading: Icon(
@@ -216,7 +218,7 @@ class _MainPageState extends State<MainPage> {
                     color: darkGreenColor,
                   ),
                   title: Text(
-                    "Resumo",
+                    "Currículo",
                     style: GoogleFonts.montserrat(
                       fontWeight: FontWeight.w200,
                     ),
