@@ -4,31 +4,6 @@ on:
       - main
 name: 🚀 Deploy Flutter Web - Portfólio
 jobs:
-  build:
-    name: Build
-    runs-on: ubuntu-latest
-    
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
-    
-    - name: Install Flutter
-      uses: subosito/flutter-action@v1
-      with:
-        flutter-version: '3.3.10'
-    
-    - name: Get dependencies
-      run: flutter pub get
-      
-    - name: Build release project
-      run: flutter build web
-
-    - name: Upload production-ready build files
-      uses: actions/upload-artifact@v2
-      with:
-        name: production-files
-        path: ./build/web
-        
   web-deploy:
     name: 🎉 Deploy
     runs-on: ubuntu-latest
