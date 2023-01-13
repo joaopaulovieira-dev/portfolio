@@ -12,8 +12,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: 🔨 Build Project
-      run: |
-        flutter build web
+      run: flutter build web
     
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
