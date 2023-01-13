@@ -1,0 +1,27 @@
+on: 
+  push:
+    branches:
+      - main
+name: 🚀 Deploy Flutter Web - Portfólio
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v2
+
+    - name: 🔨 Build Project
+      run: |
+        flutter build web
+    
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@4.3.3
+      with:
+        server: ${{ secrets.ftp_host }}
+        username: ${{ secrets.ftp_user }}
+        password: ${{ secrets.ftp_password }}
+        local-dir: build/web/
+        server-dir: public_html/
+        protocol: ftp
+        port: 21
